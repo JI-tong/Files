@@ -51,10 +51,10 @@
           $message = "You have registered for the XXX MarketPlace. Enjoy your time!";
     	  $to=$email;
     	  $subject="Welcome to XXX MarketPlace !";
-   		  $from = 'ton9eric1@gmail.com';
+   		  //$from = 'ton9eric1@gmail.com';
     	  $body='You have registered for the XXX MarketPlace. Enjoy your time!';
     	  $headers = "From:".$from;
-   		  mail($to,$subject,$body,$headers);
+   		  mail($to,$subject,$body);
    		  
           echo "Register successfully! Redirecting page, please wait...";
           

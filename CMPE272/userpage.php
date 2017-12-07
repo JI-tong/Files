@@ -8,5 +8,4 @@ if (mysqli_num_rows($result) > 0) {
         echo "<tr><td>".$row['uid']."</td><td>".$row['first_name']." ".$row['last_name']."</td><td>".$row['email']."</td><td>".$row['home_address']."</td><td>".$row['home_phone']."</td><td>".$row['cell_phone']."</td></tr>";
     }
     echo "</table>";
-    wdjakfjlawkjflawk
 }
